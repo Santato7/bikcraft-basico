@@ -1,0 +1,111 @@
+body {
+  display: grid;
+  place-items: center;
+  gap: 60px;
+  font-family: Arial;
+  background: #f7f7f7;
+  margin: 0px;
+  margin-top: 60px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.conteudo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 1000px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.introducao {
+  display: grid;
+  background: #fff;
+  padding: 40px;
+  text-align: right;
+  gap: 20px;
+  align-content: center;
+  justify-items: end;
+  position: relative;
+}
+
+.menu a {
+  background: white;
+  padding: 15px 30px;
+  flex: 1;
+  color: black;
+  border-radius: 4px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+
+.subtitulo {
+  font-size: 64px;
+  padding: 40px;
+  text-align: right;
+  align-self: center;
+  color: #c6c6c6;
+}
+
+.botao {
+  background: #e21;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.vantagens {
+  padding: 40px;
+  background: #fff;
+}
+
+.vantagens-itens {
+  padding: 20px;
+  display: grid;
+  place-content: center;
+  grid-template-columns: auto 1fr;
+  gap: 10px 20px;
+}
+
+.vantagens-itens p {
+  grid-column: 2;
+}
+
+.rodape {
+  background: #fff;
+  padding: 40px;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.detalhe {
+  background: #ee2211;
+  height: 4px;
+  width: 60px;
+  position: absolute;
+  top: 290px;
+  z-index: 1;
+}
